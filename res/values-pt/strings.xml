@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Menu -->
+    <string name="app_name">TunesViewer</string>
+    <string name="download_title">Download</string>
+    <string name="menuSearch">Buscar</string>
+    <string name="menuHome">Home</string>
+    <string name="menuShareUrl">Compartilhar Página</string>
+    <string name="menuFindText">Encontrar Página</string>
+    <string name="menuClear">Limpar Histórico &amp; Cookies</string>
+    <string name="menuPrefs">Configurações</string>
+    <string name="menuGo">Copiar/Ir para URL</string>
+    <string name="menuSource">Ver Código-Fonte da Página</string>
+    <string name="menuOriginal">Ver Original</string>
+    <string name="menuCookies">Ver Cookies</string>
+
+    
+    <string name="menuImportB">Import Bookmarks from Card</string>
+    <string name="menuExportB">Export Bookmarks to Card</string>
+    <string name="exportBTitle">Export</string>
+    <string name="importedBTitle">Results</string>
+    <string name="importedB">%1$d added to bookmarks,\n%2$d already bookmarked.</string>
+    <string name="importError">Import failed. File must be XML HTML file in the same format as the exported bookmarks.</string>
+    <string name="exportExists">File Tunesviewer/bookmarks.htm already exists. Overwrite?</string>
+    <string name="exported">Saved your bookmarks to Tunesviewer/bookmarks.htm on storage card.</string>
+    
+    <!-- Prefs -->
+    <string name="prefUATitle">Modo de Visualização</string>
+    <string name="prefUASummary">Alterar user-agent usado para requisitar páginas.</string>
+    <string name="prefDLTitle">Diretório para Downloads</string>
+    <string name="prefDLSummary">Selecione um diretório para salvar os seus downloads.</string>
+    <string name="prefMountTitle">Montar SD Depois do Download</string>
+    <string name="prefMountSummary">Necessário para adicionar mídia baixada para o player de música/vídeo em alguns aparelhos, mas pode parar de tocar a música atual.</string>
+    <string-array name="UAarray">
+    	<item>Página Completa (Mais devagar)</item>
+    	<!--<item>Tablet not working?</item>-->
+    	<item>Mobile (Mais rápido, conexão devagar)</item>
+    </string-array>
+    <string-array name="UAvalues">
+    	<item>iTunes/10.6.1</item>
+    	<!-- <item>iTunes-iPad-M/3.2</item>-->
+    	<item>iTunes-iPhone/1.2.0</item>
+    </string-array>
+    <string name="defaultUA">iTunes-iPhone/1.2.0</string>
+    
+    <string name="prefImgTitle">Tamanho da Imagem</string>
+    <string name="prefImgSummary">Tamanho de imagem preferido para modo de visualização mobile.</string>
+    <string-array name="ImgArray">
+    	<item>Sem Imagens</item>
+    	<item>Pequeno (55px)</item>
+    	<item>Médio (88px)</item>
+    	<item>Grande (176px)</item>
+    	<item>Qualquer tamanho</item>
+    </string-array>
+    <!-- Can't use integer-array, see http://code.google.com/p/android/issues/detail?id=2096 -->
+    <string-array name="ImgValues">
+    	<item>-1</item>
+    	<item>55</item>
+    	<item>88</item>
+    	<item>176</item>
+    	<item>0</item>
+    </string-array>
+    <string name="defaultImg">0</string>
+    <string name="defaultDL">/sdcard/download</string>
+    
+    <string name="prefAdvTitle">Mostrar menus para Debug</string>
+    <string name="prefAdvSummary">Habilitar itens de menu para ver código-fonte</string>
+    
+    <string name="prefInsertTitle">Script Adicional</string>
+    <string name="prefInsertSummary">Entre o JavaScript que rodará em cada página.</string>
+    
+    <!-- Errors -->
+    <string name="NoActivity">Não foi encontrada uma aplicação adequada para visualizar este arquivo.</string>
+    <string name="NoPodcatcher">Sem Podcatcher</string>
+    <string name="NoPodcatcherMessage">"Não foi encontrada uma aplicação podcast para abrir este link! Você deve instalar um gereciador de podcasts que suporte links feed://, para se increver."</string>
+    <string name="DownloadError">Erro no download: </string>
+    <string name="DownloadErrorTimeout">Timeout no download. Talvez a rede esteja desconectada?</string>
+    <string name="PageNotDownloaded">A página não pôde ser carregada.</string>
+    
+    <!-- Searchbox -->
+    <string name="courses">Cursos Universitários</string>
+    <string name="collections">Coleções</string>
+    <string name="podcasts">Podcasts</string>
+    <string name="search">Busca</string>
+    
+    <!-- Bookmarks context menu -->
+    <string name="showFiles">Mostrar Arquivos</string>
+    <string name="delete">Apagar</string>
+    
+    <!-- Delete Dialog -->
+    <string name="bookmarkDeleteMessage">"The following files are associated with this podcast. Do you want to delete them?
+"</string>
+    <string name="bookmarkDeleteTitle">Apagar Favorito?</string>
+    <string name="deleteBookmarked">Favoritos &amp; Arquivos</string>
+    <string name="removeBookmark">Somente Favoritos</string>
+    
+    <!-- %% is the file size (KB/MB) here: -->
+    <string name="deleteFile">Você realmente quer apagar este %% arquivo?</string>
+    
+    <!-- Other strings -->
+    <string name="bookmarks">Favoritos</string>
+    <string name="loading">" Carregando..."</string>
+    
+    <string name="clearedData">Histórico, Cookies, e Cache foram limpos.</string>
+    
+    <!-- Size of file added after this string: -->
+    <string name="startedDownloadingB">"Começando a baixar "</string><!-- filesize MB/KB -->
+    
+    <string name="alreadyDownloaded">"Já baixado. Abrindo arquivo..."</string>
+    <string name="share">Compartilhar</string>
+    <string name="sourceTitle">"Código-fonte da página (%% chars.)"</string>
+    <string name="close">Fechar</string>
+    <string name="about">Sobre</string>
+    <string name="menuFirebug">Mostrar Firebug Lite</string>
+    <string name="prefBookmarkTitle">Adicionar favoritos de tudo baixado</string>
+    <string name="prefBookmarkSummary">Adiciona um podcasts aos favoritos quando o item é baixado.</string>   
+</resources>
