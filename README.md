@@ -5,3 +5,5 @@ media and podcasts in Linux.
 
 website http://tunesviewer.sourceforge.net/
 
+forked from https://bitbucket.org/LBryan/tunesviewer-android
+
